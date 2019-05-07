@@ -1,0 +1,90 @@
+/* Create style rule for text in the page body */
+body {
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* Create style rule for h1 elements in the body header to white */
+body > header > h1 {
+	color: white;
+}
+
+/* Create style rule for all header elements */
+header {
+	background-color: green;
+	padding-bottom: 0;
+	border-style: solid;
+	border-width: 2px;
+	padding: 5px;
+	text-transform: uppercase;
+}
+
+/* Create style rule for nav elements */
+nav {
+	word-spacing: 2px;
+	display: inline;
+	padding-top: 10px;
+	text-align: center;
+	vertical-align: middle;
+	display: flex;
+	justify-content: space-around;
+	text-transform: none;
+}
+
+/* Create style rule for any HTML form element with an id "threecolumn" that displays content in three columns. */
+form#threecolumnform {
+	margin-top: 0;
+	border-style: solid;
+	border-width: 2px;
+	padding: 10px;
+}
+
+/* Create style rule that applies to all HTML form elements */
+form {
+	margin-top: 0;
+	border-style: solid;
+	border-width: 2px;
+	padding: 10px;
+}
+
+/* Create style rule for elements with an id of "threecolumn" */
+#threecolumn {
+		column-count: 3;
+}
+
+/* Create style rule for elements with an id of "onecolumn" */
+#onecolumn {
+	text-align: center;
+}
+
+/* Create style rule for table elements */
+table {
+	margin-top: 0;
+	border-style: solid;
+	border-width: 2px;
+	padding: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Create style rule for images */
+img {
+	width: 100px;
+	height: 50px;
+}
+
+/* Create style rule for links */
+a:link {
+	color: white;
+	width: 20%;
+}
+
+/* Create style rule for page footer */
+footer {
+	font-size: 15px;
+	font-style: italic;
+	background-color: green;
+	color: white;
+}
+	
