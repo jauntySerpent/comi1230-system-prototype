@@ -93,7 +93,7 @@
 				try {
 					$conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
 					$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-					$stmt = $conn->prepare("SELECT * FROM course_section LEFT JOIN syllabi ON course_section.Syllabus_Num = syllabi.Syllabus_Num WHERE Subject = '$Subject' AND Course_Num = '$Course_Num' AND Term = '$Term'"); 
+					$stmt = $conn->prepare("SELECT * FROM course_section LEFT JOIN syllabi ON course_section.Syllabus_Num = syllabi.Syllabus_Num WHERE Course_Num = '$Course_Num' AND Term = '$Term'"); 
 					$stmt->execute();
 
 					// set the resulting array to associative
